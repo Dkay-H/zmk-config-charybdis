@@ -49,8 +49,6 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
-        dpi = <800>;
-
         /*   optional features   */
         snipe-layers = <4>;
         scroll-layers = <5>;
