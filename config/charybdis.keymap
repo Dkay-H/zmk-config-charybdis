@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/mouse.h>
+    #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -56,6 +56,13 @@
             key-positions = <24 36>;
             bindings = <&kp LC(LS(A))>;
         };
+
+        combo_ctrl_alt_s {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&kp LC(LA(S))>;
+        };
+
     };
 
     keymap {
