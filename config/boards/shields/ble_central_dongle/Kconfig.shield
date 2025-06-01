@@ -1,0 +1,2 @@
+config SHIELD_BLE_CENTRAL_DONGLE
+    bool "BLE Central Dongle"
