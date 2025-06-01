@@ -1,7 +1,0 @@
-if SHIELD_BLE_CENTRAL_DONGLE
-
-config ZMK_BLE_CENTRAL
-    default y
-
-endif
-source "boards/shields/ble_central_dongle/Kconfig.defconfig"
