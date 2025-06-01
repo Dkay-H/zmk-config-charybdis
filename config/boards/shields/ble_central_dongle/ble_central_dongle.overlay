@@ -1,5 +1,5 @@
 / {
     chosen {
-        zmk,ble-central = &central;
+        zephyr,bt-c2h-uart = &uart0;
     };
 };
